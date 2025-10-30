@@ -13,7 +13,7 @@ st.set_page_config(page_title="Course Recommender", page_icon="🎓", layout="wi
 # -------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/Users/ameen/Documents/M.tech/CBDP/ML/SAMPLE/pg_admissions_dataset.csv")
+    df = pd.read_csv("")
     return df
 
 df = load_data()
