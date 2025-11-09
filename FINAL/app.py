@@ -33,7 +33,7 @@ class AdmissionPredictor(nn.Module):
 @st.cache_data
 def load_data():
     # Read the CSV file
-    df = pd.read_csv('/Users/ameen/Documents/M.tech/CBDP/ML/SAMPLE/pg_admissions_dataset.csv')
+    df = pd.read_csv('/')
     return df
 
 @st.cache_resource
